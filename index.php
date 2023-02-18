@@ -21,6 +21,7 @@
         //PHP variables
         $name = 'Jay';
         $age = 23;
+        $sex = 'male';
         
         echo '<br>';
         echo $name;
@@ -29,8 +30,9 @@
         
         echo '<h1> My Age is: ' .$age. '</h1>';
 
-        echo "<h1> My Name is: $name </h1>"
+        echo "<h1> My Name is: $name </h1>";
 
+        echo "<h1> My Sex is: $sex </h1>";
     ?>
 </body>
 </html>
