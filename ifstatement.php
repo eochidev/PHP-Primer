@@ -7,6 +7,8 @@
     <title>PHP Primer - If Statements</title>
 </head>
 <body>
+    <h1>IF ELSE STATEMENTS</h1>
+
     <?php
     
         $grade = 86;
