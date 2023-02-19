@@ -7,6 +7,18 @@
     <title>PHP Primer - Index</title>
 </head>
 <body>
+    
+    <h2 style = "color:skyblue">Choices</h2>
+
+        <ul>
+
+            <li><a href="ifstatement.php">If Statement Page</a></li>
+            <li><a href="switchstatement.php">Switch Statement Page</a></li>
+
+        </ul>
+
+    
+
     <!-- Basic HTML -->
     <h1>Hello HTML World</h1>
     
@@ -22,6 +34,7 @@
         $name = 'Jay';
         $age = 23;
         $sex = 'male';
+        $course = 'BSIT';
         
         echo '<br>';
         echo $name;
