@@ -17,6 +17,8 @@
             <li><a href="forloop.php">For Loop Page</a></li>
             <li><a href="whiledowhile.php">While Do While</a></li>
             <li><a href="simplearray.php">Simple Arrays</a></li>
+            <li><a href="stringmanipulation.php">String Manipulation</a></li>
+            <li><a href="dateandtime.php">Date and Time Manipulation</a></li>
 
         </ul>
 
