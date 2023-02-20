@@ -14,6 +14,9 @@
 
             <li><a href="ifstatement.php">If Statement Page</a></li>
             <li><a href="switchstatement.php">Switch Statement Page</a></li>
+            <li><a href="forloop.php">For Loop Page</a></li>
+            <li><a href="whiledowhile.php">While Do While</a></li>
+            <li><a href="simplearray.php">Simple Arrays</a></li>
 
         </ul>
 
