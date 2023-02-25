@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>While Do While Loop</title>
-</head>
+<?php 
+$title = "While Do While";
+include 'includes/header.php' 
+?>
 
-<body>
     <!-- Pre-Condition -->
     <h1>While Loop</h1>
     <?php 
@@ -39,5 +34,4 @@
     <br>
     <a href="index.php">Back</a>
 
-</body>
-</html>
+    <?php require 'includes/footer.php'?>
