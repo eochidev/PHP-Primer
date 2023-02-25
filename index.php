@@ -19,6 +19,7 @@
             <li><a href="simplearray.php">Simple Arrays</a></li>
             <li><a href="stringmanipulation.php">String Manipulation</a></li>
             <li><a href="dateandtime.php">Date and Time Manipulation</a></li>
+            <li><a href="functions.php">User Defined Functions</a></li>
 
         </ul>
 
