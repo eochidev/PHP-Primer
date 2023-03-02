@@ -1,12 +1,12 @@
 .navbar {
-    background: white;
+    background-color: white;
 }
 
 .nav-item::after {
     content: '';
     display: block;
     width: 0px;
-    height: 2px;
+    height: 3px;
     background: turquoise;
     transition: 0.4s
 }

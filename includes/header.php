@@ -18,35 +18,66 @@
     
     <div class="container">
 
-    <h2 style = "color:skyblue" class= "text-center">Choices</h2>
+    <h2 style = "color:skyblue" class="text-center">Choices</h2>
 
-
-
-<nav class="navbar navbar-expand-sm navbar-dark">
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-            <li class="nav-item active"> <a href="ifstatement.php" class="nav-link"> If Statement Page </a> </li>
-            <li class="nav-item active"> <a href="switchstatement.php" class="nav-link"> Switch Statement Page </a> </li>
-            <li class="nav-item active"> <a href="forloop.php" class="nav-link"> For Loop Page </a> </li>
-            <li class="nav-item active"> <a href="whiledowhile.php" class="nav-link"> While Do While </a> </li>
-            <li class="nav-item active"> <a href="simplearray.php" class="nav-link"> Simple Arrays</a> </li>
-            <li class="nav-item active"> <a href="stringmanipulation.php" class="nav-link"> String Manipulation </a> </li>
-            <li class="nav-item active"> <a href="dateandtime.php" class="nav-link"> Date and Time Manipulation </a> </li>
-            <li class="nav-item active"> <a href="functions.php" class="nav-link"> User Defined Functions </a> </li>
-            <li class="nav-item dropdown active">
-            <a class="dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
-                Extra
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </li>
-
-        </ul>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
+
+
+<!-- <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a href="ifstatement.php" class="nav-link"> If Statement Page </a> </li>
+                <li class="nav-item active"> <a href="switchstatement.php" class="nav-link"> Switch Statement Page </a> </li>
+                <li class="nav-item active"> <a href="forloop.php" class="nav-link"> For Loop Page </a> </li>
+                <li class="nav-item active"> <a href="whiledowhile.php" class="nav-link"> While Do While </a> </li>
+                <li class="nav-item active"> <a href="simplearray.php" class="nav-link"> Simple Arrays</a> </li>
+                <li class="nav-item active"> <a href="stringmanipulation.php" class="nav-link"> String Manipulation </a> </li>
+                <li class="nav-item active"> <a href="dateandtime.php" class="nav-link"> Date and Time Manipulation </a> </li>
+                <li class="nav-item active"> <a href="functions.php" class="nav-link"> User Defined Functions </a> </li>
+                <!-- <li class="nav-item dropdown active">
+                <a class="dropdown-toggle nav-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    Extra
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li> -->
+
+            </ul>
+        </div>
+</nav>
+
 <!-- Nav -->
     <!-- <ul class="nav nav-pills nav-fill justify-content-center">
 
